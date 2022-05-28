@@ -15,6 +15,24 @@ function next(){
 	i++;
 	return setImg();			 
 }
+function myImages1(){
+	 i = 49;
+	i++;
+	return setImg();
+    
+				 
+}
+
+function myImages2(){
+	 i = 99;
+	i++;
+	return setImg();		 
+}
+function myImages3(){
+	 i = 149;
+	i++;
+	return setImg();			 
+}
 
 function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
